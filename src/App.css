@@ -60,7 +60,7 @@
     float: right;
     margin-top: -246px;
   } */
-  .operators{
+  .operators_button{
       display: flex;
       flex-direction: column;
       flex-wrap: wrap-reverse;

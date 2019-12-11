@@ -17,9 +17,25 @@ function App() {
   // the "5" button, or the operator if they click one of those buttons) and then call your setter function to update state.
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
-const [displayValue, setDisplayValue] = useState('0')
+const [displayValue, setDisplayValue] = useState('')
 const addNumber = (number) => {
   setDisplayValue(displayValue => displayValue + number);
+};
+const addOperator = (operator) => {
+  if (operator === "="){
+    setDisplayValue (displayValue => eval(displayValue));
+  } else {
+    setDisplayValue(displayValue => displayValue + " " + operator + " ");
+  }
+};
+const addSpecial = (special) => {
+  if(special === "C"){
+    setDisplayValue(() => "0");
+  } else if (special === "%"){
+      setDisplayValue(() => displayValue * 100)
+  } else if (special === "+/-"){
+    setDisplayValue(() => displayValue* -1)
+  }
 };
   return (
     <div className="container">
@@ -28,8 +44,8 @@ const addNumber = (number) => {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display number={displayValue}/>
         <Numbers addNumber={addNumber}/>
-        <Specials/>
-        <Operators/>
+        <Specials addSpecial={addSpecial}/>
+        <Operators addOperator={addOperator}/>
         
       </div>
     </div>

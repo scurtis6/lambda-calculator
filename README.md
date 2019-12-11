@@ -34,19 +34,19 @@ This project was put together using create-react-app (CRA). You will not need to
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x] Submit a Pull-Request to merge Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master.
+- [x] Do your magic!
 
 # _Project - Lambda Calculator_
 
 **A job just came down from the Big Boss!**
 
-- [ ] A prospective client has tasked you with building a calculator app. They need you to build the app using the file structure and component wire frame provided.
-- [ ] Get all necessary files connected and either taking in or sending out data.
-- [ ] The design file should be followed as close as possible but doesn't have to be pixel perfect - budget your time wisely.
-- [ ] The client will provide their own proprietary calculator software so your app only needs basic functionality, enough for a demo.
+- [x] A prospective client has tasked you with building a calculator app. They need you to build the app using the file structure and component wire frame provided.
+- [x] Get all necessary files connected and either taking in or sending out data.
+- [x] The design file should be followed as close as possible but doesn't have to be pixel perfect - budget your time wisely.
+- [x] The client will provide their own proprietary calculator software so your app only needs basic functionality, enough for a demo.
 
 ## Directions
 
@@ -119,8 +119,8 @@ This is where you're JavaScript skills are really going to be stretched. Remembe
 
 Do not attempt stretch problems until MVP has been reached and a final commit has been made.
 
-- [ ] STEP 5 from above
-- [ ] Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
-- [ ] Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
+- [x] STEP 5 from above
+- [x] Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
+- [x] Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
 - [ ] Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
 - [ ] Convert your CSS styling to use Sass/Scss
