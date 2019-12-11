@@ -7,9 +7,10 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
     height: 100px;
-    width: 92%;
+    width: 85%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +20,64 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+  .logo{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .special_button{
+    width: 18%;
+    display: unset;
+    color: white;
+    background-color: rgb(47, 76, 155);
+    border-radius: 50px;
+    padding: 28px 0px;
+    margin: 17px 20px;
+    border: .5px solid black;
+    box-shadow: 0px 5px #322c2d;
+    font-size: 35px;
+  }
+  .special_button:first-child{
+      margin-left: 20px;
+  }
+  .number_button{
+    width: 18%;
+    display: unset;
+    color: white;
+    background-color: rgb(39, 60, 105);
+    border-radius: 50px;
+    padding: 28px 0px;
+    font-size: 35px;
+    margin: 17px 20px;
+    border: .5px solid black;
+    box-shadow: 0px 5px #322c2d;
+  }
+  .number_button:nth-child(10){
+      width: 43%;
+  }
+  /* .operator_button{
+    display: inline-grid;
+    float: right;
+    margin-top: -246px;
+  } */
+  .operators{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap-reverse;
+      margin-top: -645px;
+  }
+  .operator_button{
+        width: 18%;
+        display: unset;
+        color: white;
+        background-color: rgb(48, 113, 156);
+        border-radius: 50px;
+        padding: 28px 0px;
+        font-size: 35px;
+        margin: 16px 20px;
+        border: .5px solid black;
+        box-shadow: 0px 5px #322c2d;
+  }
+  .operator_button:first-child{
+      margin-top: 10px;
   }
